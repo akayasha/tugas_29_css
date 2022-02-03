@@ -1,0 +1,79 @@
+  <!DOCTYPE html>
+<html>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tugas CSS - Niomic</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css"/>
+    <style type="text/css">
+      body{
+      background-color: #d9d2d2;
+      padding-bottom: 30px;
+      }
+      section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: auto;
+      }
+      form{
+      width: auto;
+      background-color:white;
+      padding: 20px;
+      width: 450px;
+
+      }
+      button{
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+    <div class="ui middle aligned center aligned grid">
+    <div class="column">
+      <h2 class="ui teal image header">
+        <img src="logo1.jpg" class="image">
+        <div class="content">
+          Daftar Akun NIOMIC
+        </div>
+      </h2>
+      <form class="ui large form">
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="text" name="user" placeholder="Nama Depan">
+            </div><br><br>
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="text" name="user" placeholder="Nama Belakang">
+            </div><br><br>
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="number" name="user" placeholder="No Telp/Hp">
+            </div><br><br>
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input type="email" name="email" placeholder="Alamat E-mail">
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="lock icon"></i>
+              <input type="password" name="password" placeholder="Password">
+            </div>
+        </div>
+        <button class="large ui primary button">
+          Login
+        </button>
+
+      </form>
+    </section>
+
+    </div>
+  </div>
+  </body>
+</html>
